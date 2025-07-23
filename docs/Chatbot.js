@@ -12,7 +12,7 @@ async function sendMessage() {
   appendMessage('bot', 'Typing...');
 
   try {
-    const response = await fetch('http://localhost:3000/api/chat', {
+    const response = await fetch('https://ai-chatbot-5j6c.onrender.com', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ prompt: userText })

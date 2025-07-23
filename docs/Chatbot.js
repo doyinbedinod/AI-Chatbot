@@ -12,7 +12,7 @@ async function sendMessage() {
   appendMessage('bot', 'Typing...');
 
   try {
-    fetch('https://your-backend-name.onrender.com/chat', {
+    fetch('https://ai-chatbot-5j6c.onrender.com', {
   method: "POST",
   headers: {
     "Content-Type": "application/json"

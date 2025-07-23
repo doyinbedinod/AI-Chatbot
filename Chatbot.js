@@ -1,7 +1,9 @@
 const input = document.getElementById('user-input');
+
 const chatBox = document.getElementById('chat-box');
 
-async function sendMessage() {
+async function sendMessage() 
+{
   const userText = input.value.trim();
   if (!userText) return;
 
@@ -11,7 +13,8 @@ async function sendMessage() {
 
   appendMessage('bot', 'Typing...');
 
-  try {
+  try 
+  {
     const response = await fetch('http://localhost:3000/api/chat', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
@@ -19,16 +22,21 @@ async function sendMessage() {
     });
     const data = await response.json();
     updateLastBotMessage(data.reply);
-  } catch (err) {
+  } 
+  catch (err) 
+  {
     updateLastBotMessage('❌ Error: Unable to fetch reply.');
     console.error(err);
-  } finally {
+  } 
+  finally 
+  {
     input.disabled = false;
     input.focus();
   }
 }
 
-function appendMessage(sender, text) {
+function appendMessage(sender, text) 
+{
   const messageDiv = document.createElement('div');
   messageDiv.className = `message ${sender}`;
   messageDiv.textContent = text;
@@ -42,10 +50,12 @@ function appendMessage(sender, text) {
   chatBox.scrollTop = chatBox.scrollHeight;
 }
 
-function updateLastBotMessage(text) {
+function updateLastBotMessage(text) 
+{
   const botMessages = document.querySelectorAll('.message.bot');
   const lastBotMsg = botMessages[botMessages.length - 1];
-  if (lastBotMsg) {
+  if (lastBotMsg)
+  {
     lastBotMsg.textContent = text;
 
     const timestampDiv = document.createElement('div');
@@ -56,7 +66,8 @@ function updateLastBotMessage(text) {
   chatBox.scrollTop = chatBox.scrollHeight;
 }
 
-function getCurrentTime() {
+function getCurrentTime() 
+{
   const now = new Date();
   let hours = now.getHours();
   const minutes = now.getMinutes().toString().padStart(2, '0');
@@ -65,11 +76,13 @@ function getCurrentTime() {
   return `${hours}:${minutes} ${ampm}`;
 }
 
-function toggleTheme() {
+function toggleTheme() 
+{
   document.body.classList.toggle('light-theme');
 }
 
-function clearChat() {
+function clearChat() 
+{
   document.getElementById('chat-box').innerHTML = '';
 }
 

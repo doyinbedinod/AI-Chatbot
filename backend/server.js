@@ -20,7 +20,6 @@ app.post('/api/chat', async (req, res) => {
 
   // Make sure API key is available
   if (!process.env.OPENROUTER_API_KEY) {
-    console.log(process.env.OPENROUTER_API_KEY)
     return res.status(500).json({ reply: "❌ API key missing in .env file" });
   }
 

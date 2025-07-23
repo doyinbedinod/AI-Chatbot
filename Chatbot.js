@@ -65,13 +65,13 @@ function getCurrentTime() {
   return `${hours}:${minutes} ${ampm}`;
 }
 
-// function toggleTheme() {
-//   document.body.classList.toggle('light-theme');
-// }
+function toggleTheme() {
+  document.body.classList.toggle('light-theme');
+}
 
-// function clearChat() {
-//   document.getElementById('chat-box').innerHTML = '';
-// }
+function clearChat() {
+  document.getElementById('chat-box').innerHTML = '';
+}
 
 input.addEventListener('keydown', (e) => {
   if (e.key === 'Enter') sendMessage();

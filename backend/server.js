@@ -7,6 +7,10 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+app.get('/', (req, res) => {
+  res.send("🤖 AI Chatbot backend is running.");
+});
+
 app.post('/api/chat', async (req, res) => {
   const { prompt } = req.body;
 
@@ -14,7 +18,6 @@ app.post('/api/chat', async (req, res) => {
   if (!process.env.OPENROUTER_API_KEY) {
     return res.status(500).json({ reply: "❌ API key missing in .env file" });
   }
-  console.log("🔑 API Key OK:", !!process.env.OPENROUTER_API_KEY);
 
   try {
     const response = await fetch('https://openrouter.ai/api/v1/chat/completions', {
@@ -33,8 +36,6 @@ app.post('/api/chat', async (req, res) => {
     });
 
     const data = await response.json();
-    console.log("📩 OpenRouter response:", data);
-
     if (data.error) {
       console.error("❌ OpenRouter API Error:", data.error);
       return res.status(500).json({ reply: data.error.message || 'OpenRouter error.' });

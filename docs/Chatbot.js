@@ -12,11 +12,14 @@ async function sendMessage() {
   appendMessage('bot', 'Typing...');
 
   try {
-    const response = await fetch('https://ai-chatbot-5j6c.onrender.com', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ prompt: userText })
-    });
+    fetch('https://your-backend-name.onrender.com/chat', {
+  method: "POST",
+  headers: {
+    "Content-Type": "application/json"
+  },
+  body: JSON.stringify({ prompt: userInput })
+});
+
     const data = await response.json();
     updateLastBotMessage(data.reply);
   } catch (err) {

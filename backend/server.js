@@ -20,7 +20,7 @@ app.post('/api/chat', async (req, res) => {
   }
 
   try {
-    const response = await fetch('https://openrouter.ai/api/v1/chat/completions', {
+    const response = await fetch('https://ai-chatbot-5j6c.onrender.com/api/chat', {
       method: 'POST',
       headers: {
         'Authorization': `Bearer ${process.env.OPENROUTER_API_KEY}`,

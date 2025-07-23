@@ -1,0 +1,19 @@
+{
+  "name": "ai-chatbot-backend",
+  "version": "1.0.0",
+  "description": "Backend for AI chatbot using Express and OpenAI API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "Shivam Maurya",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "node-fetch": "^2.7.0"
+  },
+  "keywords": []
+}

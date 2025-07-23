@@ -12,16 +12,16 @@ async function sendMessage() {
   appendMessage('bot', 'Typing...');
 
   try {
-    const response = await fetch('https://ai-chatbot-5j6c.onrender.com/chat', {
+    const response = await fetch('https://ai-chatbot-5j6c.onrender.com/api/chat', {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
       },
-      body: JSON.stringify({ prompt: userText }) // 👈 fixed: used correct variable
+      body: JSON.stringify({ prompt: userText })
     });
 
     const data = await response.json();
-    updateLastBotMessage(data.reply); // 👈 match this with your server.js response
+    updateLastBotMessage(data.reply || '⚠️ No response');
   } catch (err) {
     updateLastBotMessage('❌ Error: Unable to fetch reply.');
     console.error(err);

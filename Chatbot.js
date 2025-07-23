@@ -1,7 +1,9 @@
 const input = document.getElementById('user-input');
+
 const chatBox = document.getElementById('chat-box');
 
-async function sendMessage() {
+async function sendMessage() 
+{
   const userText = input.value.trim();
   if (!userText) return;
 
@@ -11,7 +13,8 @@ async function sendMessage() {
 
   appendMessage('bot', 'Typing...');
 
-  try {
+  try 
+  {
     const response = await fetch('http://localhost:3000/api/chat', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },

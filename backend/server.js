@@ -19,11 +19,13 @@ app.post('/api/chat', async (req, res) => {
   console.log("📨 Prompt received:", prompt);
 
   // Make sure API key is available
-  if (!process.env.OPENROUTER_API_KEY) {
+  if (!process.env.OPENROUTER_API_KEY) 
+  {
     return res.status(500).json({ reply: "❌ API key missing in .env file" });
   }
 
-  try {
+  try 
+  {
     // THIS is the correct URL to call — OpenRouter API!
     const response = await fetch('https://openrouter.ai/api/v1/chat/completions', {
       method: 'POST',
@@ -43,7 +45,8 @@ app.post('/api/chat', async (req, res) => {
     const data = await response.json();
     console.log("✅ OpenRouter Response:", data);
 
-    if (data.error) {
+    if (data.error) 
+    {
       console.error("❌ OpenRouter API Error:", data.error);
       return res.status(500).json({ reply: data.error.message || 'OpenRouter error.' });
     }
@@ -51,7 +54,9 @@ app.post('/api/chat', async (req, res) => {
     const content = data.choices?.[0]?.message?.content;
     res.json({ reply: content || "⚠️ No response from model." });
 
-  } catch (err) {
+  }
+  catch (err) 
+  {
     console.error("❌ Server error:", err);
     res.status(500).json({ reply: "❌ Internal Server Error" });
   }

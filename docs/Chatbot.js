@@ -4,7 +4,7 @@ const input = document.getElementById('user-input');
 const chatBox = document.getElementById('chat-box');
 
 async function sendMessage() 
-{
+
   const userText = input.value.trim();
   if (!userText) return;
 

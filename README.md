@@ -1,5 +1,6 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/ShivamMaurya2002/AI-Chatbot/main/assets/Chatbot.png" width="400" alt="Chatbot Screenshot" />
+  <img src="https://raw.githubusercontent.com/ShivamMaurya2002/AI-Chatbot/main/assets/Chatbot.png" width="400" alt="Chatbot Screenshot"  
+    style="width: 100%; height: 300px; object-fit: cover; border-radius: 8px;" />
 </p>
 
 <h1 align="center">🤖 AI Chatbot 🤖</h1>

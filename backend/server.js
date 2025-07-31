@@ -53,7 +53,6 @@ app.post('/api/chat', async (req, res) => {
 
     const content = data.choices?.[0]?.message?.content;
     res.json({ reply: content || "⚠️ No response from model." });
-
   }
   catch (err) 
   {
@@ -61,7 +60,6 @@ app.post('/api/chat', async (req, res) => {
     res.status(500).json({ reply: "❌ Internal Server Error" });
   }
 });
-
 // Start server
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => console.log(`✅ Server running on http://localhost:${PORT}`));

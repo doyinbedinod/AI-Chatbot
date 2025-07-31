@@ -26,12 +26,18 @@ It leverages the power of <strong>OpenRouter's LLM API</strong> to deliver intel
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Frontend-HTML%2C%20CSS%2C%20JS-blue?style=for-the-badge&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/Backend-Node.js%20%7C%20Express-green?style=for-the-badge&logo=node.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/AI%20Engine-OpenRouter.ai-purple?style=for-the-badge&logo=openai&logoColor=white" />
-  <img src="https://img.shields.io/badge/Hosting-Render-blueviolet?style=for-the-badge&logo=render&logoColor=white" />
-  <img src="https://img.shields.io/badge/Tools-dotenv%20%7C%20Fetch%20API%20%7C%20VS%20Code-orange?style=for-the-badge&logo=visualstudiocode&logoColor=white" />
+  <!-- Frontend Badge -->
+  <img src="https://img.shields.io/badge/Frontend-HTML%20%7C%20CSS%20%7C%20JavaScript-007ACC?style=for-the-badge&logo=javascript&logoColor=white" alt="Frontend Badge" /></br>
+  <!-- Backend Badge -->
+  <img src="https://img.shields.io/badge/Backend-Node.js%20%7C%20Express-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Backend Badge" /></br>
+  <!-- AI Engine Badge -->
+  <img src="https://img.shields.io/badge/AI%20Engine-OpenRouter.ai-5e2ca5?style=for-the-badge&logo=openai&logoColor=white" alt="AI Engine Badge" /></br>
+  <!-- Hosting Platforms -->
+  <img src="https://img.shields.io/badge/Hosting-Render%20%7C%20Netlify%20%7C%20GitHub%20Pages-6e5494?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Combined Hosting Badge" /></br>
+  <!-- Tools Badge -->
+  <img src="https://img.shields.io/badge/Tools-dotenv%20%7C%20Fetch%20API%20%7C%20VS%20Code-0078D7?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="Tools Badge" />
 </p>
+
 
 <table align="center" border="0">
   <thead>

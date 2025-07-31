@@ -22,7 +22,7 @@ It leverages the power of <strong>OpenRouter's LLM API</strong> to deliver intel
 <h2 align="center">🛠️ Tech Stack</h2>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,nodejs,express,dotenv,vscode&theme=light" alt="Skill Icons" />
+ <img src="https://skillicons.dev/icons?i=html,css,js,nodejs,express,vscode&theme=light" alt="Skill Icons" />
 </p>
 
 <p align="center">

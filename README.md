@@ -4,18 +4,34 @@
 
 <h1 align="center">🤖 AI Chatbot 🤖</h1>
 
-<b>AI Chatbot</b> is a modern, responsive conversational assistant built with <strong>HTML, CSS, and JavaScript</strong>, seamlessly integrated with a <strong>Node.js + Express</strong> backend.
-It leverages the power of <strong>OpenRouter's LLM API</strong> to deliver intelligent, real-time interactions—offering a fast, elegant, and intuitive user experience inspired by ChatGPT.
+<b>AI Chatbot</b> is a modern, responsive conversational assistant built with <strong>HTML, CSS, and JavaScript</strong>, seamlessly integrated with a <strong>Node.js + Express</strong> backend. It leverages the power of <strong>OpenRouter's LLM API</strong> to deliver intelligent, real-time interactions—offering a fast, elegant, and intuitive user experience inspired by ChatGPT.
 
 ---
 
-<h2 align="center">🌟 Features</h2>
+<h2 align="center">🌟 Key Features</h2>
 
-- 🧠 ChatGPT-style AI interaction
-- 🌙 Theme toggle (Light/Dark mode)
-- 📱 Fully responsive layout (Mobile + Desktop)
-- 🔐 Secure backend proxying to OpenRouter API
-- 🚀 Blazing fast response via lightweight Express server
+<table align="center">
+  <tr>
+    <td>🧠</td>
+    <td><strong>AI-Powered Conversations:</strong> ChatGPT-style interactions using <code>OpenRouter's</code> LLM API for intelligent responses.</td>
+  </tr>
+  <tr>
+    <td>🌙</td>
+    <td><strong>Theme Toggle:</strong> Switch effortlessly between <span style="color:#FBBF24;">Light</span> and <span style="color:#3B82F6;">Dark</span> mode for a tailored UI experience.</td>
+  </tr>
+  <tr>
+    <td>📱</td>
+    <td><strong>Responsive Design:</strong> Fully adaptive layout across <em>mobile, tablet, and desktop</em> devices.</td>
+  </tr>
+  <tr>
+    <td>🔐</td>
+    <td><strong>Secure Backend:</strong> Express.js server safely manages API requests, keeping your keys and data secure.</td>
+  </tr>
+  <tr>
+    <td>🚀</td>
+    <td><strong>Fast Performance:</strong> Lightweight architecture ensures rapid page loads and smooth interaction.</td>
+  </tr>
+</table>
 
 ---
 

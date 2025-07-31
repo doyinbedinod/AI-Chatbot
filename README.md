@@ -2,7 +2,7 @@
 
 AI Chatbot is a modern, responsive conversational assistant built with HTML, CSS, and JavaScript, seamlessly integrated with a Node.js + Express backend. It leverages the power of OpenRouter's LLM API to deliver intelligent—offering a fast, elegant, and intuitive user experience inspired by ChatGPT.
 
-![Chatbot Screenshot](https://raw.githubusercontent.com/ShivamMaurya2002/AI-Chatbot/main/assets/screenshot.png)
+![Chatbot Screenshot](https://raw.githubusercontent.com/ShivamMaurya2002/AI-Chatbot/main/assets/Chatbot.png)
 
 ---
 
@@ -25,23 +25,6 @@ AI Chatbot is a modern, responsive conversational assistant built with HTML, CSS
 | AI Engine  | OpenRouter API (LLM)     |
 | Hosting    | GitHub Page, Render      |
 | Tools      | dotenv, fetch API, VS code |
-
----
-
-## 📁 Project Structure
-
-AI-Chatbot/
-│
-├── backend/
-│ ├── server.js # Express backend
-│ ├── .env # API keys
-│
-├── index.html # Main UI
-├── Chatbot.css # Chat + Theme CSS
-├── Chatbot.js # Chatbot JS logic
-├── assets/
-│ └── screenshot.png # UI image for preview
-└── README.md
 
 ---
 

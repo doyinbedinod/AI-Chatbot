@@ -38,53 +38,41 @@
 <h2 align="center">🛠️ Tech Stack</h2>
 
 <p align="center">
- <img src="https://skillicons.dev/icons?i=html,css,js,nodejs,express,vscode&theme=light" alt="Skill Icons" />
-</p>
+  <span style="margin: 0 10px;">
+    <img src="https://skillicons.dev/icons?i=html&theme=light" alt="HTML" />
+  </span>
+  &nbsp;&nbsp;<span style="margin: 0 10px;">
+    <img src="https://skillicons.dev/icons?i=css&theme=light" alt="CSS" />
+  </span>
+  &nbsp;&nbsp;<span style="margin: 0 10px;">
+    <img src="https://skillicons.dev/icons?i=js&theme=light" alt="JavaScript" />
+  </span>
+  &nbsp;&nbsp;<span style="margin: 0 10px;">
+    <img src="https://skillicons.dev/icons?i=nodejs&theme=light" alt="Node.js" />
+  </span>
+  &nbsp;&nbsp;<span style="margin: 0 10px;">
+    <img src="https://skillicons.dev/icons?i=express&theme=light" alt="Express.js" />
+  </span>
+  &nbsp;&nbsp;<span style="margin: 0 10px;">
+    <img src="https://skillicons.dev/icons?i=vscode&theme=light" alt="VS Code" />
+  </span>
+</p></br>
 
 <p align="center">
   <!-- Frontend Badge -->
-  <img src="https://img.shields.io/badge/Frontend-HTML%20%7C%20CSS%20%7C%20JavaScript-007ACC?style=for-the-badge&logo=javascript&logoColor=white" alt="Frontend Badge" /></br>
+  <img src="https://img.shields.io/badge/Frontend-HTML%20%7C%20CSS%20%7C%20JavaScript-007ACC?style=for-the-badge&logo=javascript&logoColor=white" alt="Frontend Badge" />
+  </br></br>
   <!-- Backend Badge -->
-  <img src="https://img.shields.io/badge/Backend-Node.js%20%7C%20Express-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Backend Badge" /></br>
+  <img src="https://img.shields.io/badge/Backend-Node.js%20%7C%20Express-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Backend Badge" />
+  </br></br>
   <!-- AI Engine Badge -->
-  <img src="https://img.shields.io/badge/AI%20Engine-OpenRouter.ai-5e2ca5?style=for-the-badge&logo=openai&logoColor=white" alt="AI Engine Badge" /></br>
+  <img src="https://img.shields.io/badge/AI%20Engine-OpenRouter.ai-5e2ca5?style=for-the-badge&logo=openai&logoColor=white" alt="AI Engine Badge" />
+  </br></br>
   <!-- Hosting Platforms -->
-  <img src="https://img.shields.io/badge/Hosting-Render%20%7C%20Netlify%20%7C%20GitHub%20Pages-6e5494?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Combined Hosting Badge" /></br>
+  <img src="https://img.shields.io/badge/Hosting-Render%20%7C%20Netlify%20%7C%20GitHub%20Pages-6e5494?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Combined Hosting Badge" /></br></br>
   <!-- Tools Badge -->
   <img src="https://img.shields.io/badge/Tools-dotenv%20%7C%20Fetch%20API%20%7C%20VS%20Code-0078D7?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="Tools Badge" />
 </p>
-
-
-<table align="center" border="0">
-  <thead>
-    <tr>
-      <th align="center">🔹 Layer</th>
-      <th align="center">⚙️ Technology</th>
-    </tr>
-  </thead>
-  <tbody align="center">
-    <tr>
-      <td><strong>Frontend</strong></td>
-      <td>🌐 HTML, 🎨 CSS, 🧠 JavaScript</td>
-    </tr>
-    <tr>
-      <td><strong>Backend</strong></td>
-      <td>⚙️ Node.js, 🚀 Express.js</td>
-    </tr>
-    <tr>
-      <td><strong>AI Engine</strong></td>
-      <td>🤖 OpenRouter API (LLM)</td>
-    </tr>
-    <tr>
-      <td><strong>Hosting</strong></td>
-      <td>📡 GitHub Pages, ☁️ Render, 🌍 Vercel/Netlify</td>
-    </tr>
-    <tr>
-      <td><strong>Tools</strong></td>
-      <td>🛠️ dotenv, 🔄 Fetch API, 🧰 VS Code</td>
-    </tr>
-  </tbody>
-</table>
 
 ---
 

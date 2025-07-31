@@ -1,9 +1,11 @@
+<h1 align="center"> 🤖 AI Chatbot 🤖 </h1>
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/ShivamMaurya2002/AI-Chatbot/main/assets/Chatbot1.png" width="400" alt="Chatbot Screenshot"  
     style="width: 100%; height: 400px; object-fit: cover; border-radius: 8px;" />
 </p>
 
-<h1 align="center">🤖 AI Chatbot 🤖</h1>
+---
 
 <b>AI Chatbot</b> is a modern, responsive conversational assistant built with <strong>HTML, CSS, and JavaScript</strong>, seamlessly integrated with a <strong>Node.js + Express</strong> backend. It leverages the power of <strong>OpenRouter's LLM API</strong> to deliver intelligent, real-time interactions—offering a fast, elegant, and intuitive user experience inspired by ChatGPT.
 

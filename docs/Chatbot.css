@@ -15,7 +15,11 @@ body.light-theme {
   --accent-color: #6366f1;
 }
 
-* { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Inter', sans-serif; }
+* { 
+  box-sizing: border-box; 
+  margin: 0; padding: 0; 
+  font-family: 'Inter', sans-serif; 
+}
 
 body {
   background: url('https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=1650&q=80') no-repeat center center fixed;
@@ -36,8 +40,12 @@ body {
 }
 
 .header-buttons {
-  position: absolute; top: 50%; right: 20px; transform: translateY(-50%);
-  display: flex; gap: 12px;
+  position: absolute; 
+  top: 50%; 
+  right: 20px; 
+  transform: translateY(-50%);
+  display: flex; 
+  gap: 12px;
 }
 
 .header-buttons button {

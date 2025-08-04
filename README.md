@@ -7,7 +7,7 @@
 
 ---
 
-<b>AI Chatbot</b> is a modern, responsive conversational assistant built with <strong>HTML, CSS, and JavaScript</strong>, seamlessly integrated with a <strong>Node.js + Express</strong> backend. It leverages the power of <strong>OpenRouter's LLM API</strong> to deliver intelligent, real-time interactions—offering a fast, elegant, and intuitive user experience inspired by ChatGPT.
+<b>AI Chatbot</b> is a modern, responsive conversational assistant built with <strong>HTML, CSS, and JavaScript</strong>, seamlessly integrated with a <strong>Node.js + Express</strong> backend. It leverages the power of <strong>OpenRouter's LLM API</strong> to deliver intelligent, real-time interactions, offering a fast, elegant, and intuitive user experience inspired by ChatGPT.
 
 ---
 

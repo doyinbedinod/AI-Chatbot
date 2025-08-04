@@ -81,51 +81,28 @@
 
 ## 📊 Language Usage
 
-![Language Stats](https://quickchart.io/chart?c={
-type:'pie',
-data:{
-labels:[
-'CSS',
-'JavaScript (Frontend)',
-'JavaScript (Backend)',
-'HTML',
-'Node.js',
-'Express.js',
-'OpenRouter API'
-],
-datasets:[{
-data:[30, 20, 15, 10, 10, 10, 5],
-backgroundColor:[
-'%23800080',
-'%23FFD700',
-'%23FFA500',
-'%23E34F26',
-'%2300813A',
-'%230084FF',
-'%23999999'
-]
-}]
-},
-options:{
-plugins:{
-legend:{
-position:'right',
-labels:{
-font:{size:12},
-boxWidth:12
-}
-},
-title:{
-display:true,
-text:'Language & Tech Usage (%)',
-font:{size:14}
-}
-},
-layout:{padding:0}
-},
-width:350,
-height:350
-})
+<table>
+  <tr>
+    <td align="left" valign="middle">
+      <ul>
+        <li><strong>CSS</strong> - 30%</li>
+        <li><strong>JavaScript (Frontend)</strong> - 20%</li>
+        <li><strong>JavaScript (Backend)</strong> - 15%</li>
+        <li><strong>HTML</strong> - 10%</li>
+        <li><strong>Node.js</strong> - 10%</li>
+        <li><strong>Express.js</strong> - 10%</li>
+        <li><strong>OpenRouter API</strong> - 5%</li>
+      </ul>
+    </td>
+    <td>
+      <a href="https://quickchart.io/chart?c=%7Btype%3A%27pie%27%2Cdata%3A%7Blabels%3A%5B%27CSS%27%2C%27JavaScript%20(Frontend)%27%2C%27JavaScript%20(Backend)%27%2C%27HTML%27%2C%27Node.js%27%2C%27Express.js%27%2C%27OpenRouterAPI%27%5D%2Cdatasets%3A%5B%7Bdata%3A%5B30%2C20%2C15%2C10%2C10%2C10%2C5%5D%2CbackgroundColor%3A%5B%27%23800080%27%2C%27%23FFD700%27%2C%27%23FFA500%27%2C%27%23E34F26%27%2C%27%2300813A%27%2C%27%230084FF%27%2C%27%23999999%27%5D%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bposition%3A%27right%27%2Clabels%3A%7Bfont%3A%7Bsize%3A11%7D%2CboxWidth%3A10%2Cpadding%3A8%7D%7D%2Ctitle%3A%7Bdisplay%3Atrue%2Ctext%3A%27Tech%20Stack%20Usage%20(%25)%27%2Cfont%3A%7Bsize%3A14%7D%7D%7D%2Clayout%3A%7Bpadding%3A0%7D%7D%2Cwidth%3A280%2Cheight%3A280%7D">
+        <img src="https://quickchart.io/chart?c=%7Btype%3A%27pie%27%2Cdata%3A%7Blabels%3A%5B%27CSS%27%2C%27JavaScript%20(Frontend)%27%2C%27JavaScript%20(Backend)%27%2C%27HTML%27%2C%27Node.js%27%2C%27Express.js%27%2C%27OpenRouterAPI%27%5D%2Cdatasets%3A%5B%7Bdata%3A%5B30%2C20%2C15%2C10%2C10%2C10%2C5%5D%2CbackgroundColor%3A%5B%27%23800080%27%2C%27%23FFD700%27%2C%27%23FFA500%27%2C%27%23E34F26%27%2C%27%2300813A%27%2C%27%230084FF%27%2C%27%23999999%27%5D%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bposition%3A%27right%27%2Clabels%3A%7Bfont%3A%7Bsize%3A11%7D%2CboxWidth%3A10%2Cpadding%3A8%7D%7D%2Ctitle%3A%7Bdisplay%3Atrue%2Ctext%3A%27Tech%20Stack%20Usage%20(%25)%27%2Cfont%3A%7Bsize%3A14%7D%7D%7D%2Clayout%3A%7Bpadding%3A0%7D%7D%2Cwidth%3A280%2Cheight%3A280%7D" width="300" height="300"/>
+      </a>
+    </td>
+  </tr>
+</table>
+
+
 
 ---
 

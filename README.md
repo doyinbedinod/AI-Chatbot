@@ -79,4 +79,10 @@
 
 ---
 
+## 📊 Language Usage
+
+![Language Stats](https://quickchart.io/chart?c={type:'pie',data:{labels:['CSS','JavaScript','HTML'],datasets:[{data:[56.9,30.4,12.7],backgroundColor:['%23800080','%23F7DF1E','%23E34F26']}]},"options":{"plugins":{"legend":{"position":"right"}}}})
+
+---
+
 <p align="center">Made with ❤️ by <a href="https://github.com/ShivamMaurya2002">Shivam Maurya</a></p>

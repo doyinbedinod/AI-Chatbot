@@ -66,7 +66,7 @@
   <img src="https://img.shields.io/badge/Frontend-HTML%20%7C%20CSS%20%7C%20JavaScript-007ACC?style=for-the-badge&logo=javascript&logoColor=white" alt="Frontend Badge" />
   </br></br>
   <!-- Backend Badge -->
-  <img src="https://img.shields.io/badge/Backend-Node.js%20%7C%20Express-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Backend Badge" />
+  <img src="https://img.shields.io/badge/Backend-Node.js%20%7C%20Express.js-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Backend Badge" />
   </br></br>
   <!-- AI Engine Badge -->
   <img src="https://img.shields.io/badge/AI%20Engine-OpenRouter.ai-5e2ca5?style=for-the-badge&logo=openai&logoColor=white" alt="AI Engine Badge" />

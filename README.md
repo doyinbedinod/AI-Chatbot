@@ -51,10 +51,10 @@
     <img src="https://skillicons.dev/icons?i=js&theme=light" alt="JavaScript" />
   </span>
   &nbsp;&nbsp;<span style="margin: 0 10px;">
-    <img src="https://skillicons.dev/icons?i=node.js&theme=light" alt="Node.js" />
+    <img src="https://skillicons.dev/icons?i=nodejs&theme=light" alt="Node.js" />
   </span>
   &nbsp;&nbsp;<span style="margin: 0 10px;">
-    <img src="https://skillicons.dev/icons?i=express.js&theme=light" alt="Express.js" />
+    <img src="https://skillicons.dev/icons?i=expressjs&theme=light" alt="Express.js" />
   </span>
   &nbsp;&nbsp;<span style="margin: 0 10px;">
     <img src="https://skillicons.dev/icons?i=vscode&theme=light" alt="VS Code" />

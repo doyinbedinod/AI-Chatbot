@@ -81,7 +81,51 @@
 
 ## 📊 Language Usage
 
-![Language Stats](https://quickchart.io/chart?c={type:'pie',data:{labels:['CSS','JavaScript','HTML'],datasets:[{data:[56.9,30.4,12.7],backgroundColor:['%23800080','%23F7DF1E','%23E34F26']}]},"options":{"plugins":{"legend":{"position":"right"}}}})
+![Language Stats](https://quickchart.io/chart?c={
+type:'pie',
+data:{
+labels:[
+'CSS',
+'JavaScript (Frontend)',
+'JavaScript (Backend)',
+'HTML',
+'Node.js',
+'Express.js',
+'OpenRouter API'
+],
+datasets:[{
+data:[30, 20, 15, 10, 10, 10, 5],
+backgroundColor:[
+'%23800080',
+'%23FFD700',
+'%23FFA500',
+'%23E34F26',
+'%2300813A',
+'%230084FF',
+'%23999999'
+]
+}]
+},
+options:{
+plugins:{
+legend:{
+position:'right',
+labels:{
+font:{size:12},
+boxWidth:12
+}
+},
+title:{
+display:true,
+text:'Language & Tech Usage (%)',
+font:{size:14}
+}
+},
+layout:{padding:0}
+},
+width:350,
+height:350
+})
 
 ---
 

